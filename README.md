@@ -2,5 +2,5 @@
 
 First topic:- Pointers
 
-Second topic:- Arrays
+Second topic:- Strings
 
