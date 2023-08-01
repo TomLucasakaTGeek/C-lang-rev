@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(void)
+void main()
 {
     int x = 99;   
      // declare a pointer
@@ -12,5 +12,4 @@ int main(void)
 
     printf("Address pointed by ptr is: %p \n", ptr);
 
-    return 0;
 }
