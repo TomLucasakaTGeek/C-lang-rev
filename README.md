@@ -1,6 +1,10 @@
 # C-lang-rev
 
-First topic:- Pointers
+First topic:- Input/Output
 
-Second topic:- Strings
+Second topic:- Loops
+
+Third topic:- Strings
+
+Fourth topic:- Pointers
 
