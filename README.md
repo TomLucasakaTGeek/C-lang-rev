@@ -6,7 +6,7 @@ Second topic:- Loops
 
 Third topic:- Strings/Arrays
 
-Fourth topic:- Pointers
+Fourth topic:- Pointers/Structs
 
 Fifth topic:- LinkedList
 
