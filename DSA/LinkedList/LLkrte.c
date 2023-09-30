@@ -1,12 +1,35 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-struct list {
-  int data;
-  int *link;
+struct Node {
+    int data;
+    struct Node* next;
 };
 
-list l1, l2;
+//Traversal 
+void Traversal(struct Node* ptr) {
+    while(ptr != NULL) {
+        printf("Elements = %d\n", ptr->data);
+        ptr = ptr->next;
+    }
+}
+
 void main() {
-  l1.link = l2;
-  l2.link = Null;
+  struct Node* head, second, last;
+  //Allocate memory for Nodes
+  head = (struct Node*)malloc(sizeof(struct Node));
+  second = (struct Node*)malloc(sizeof(struct Node));
+  last = (struct Node*)malloc(sizeof(struct Node));
+
+    //head(or first) node
+    head->data = 1;
+    head->next = second;
+    //second node
+    second->data = 2;
+    second->next = last;
+    //last node
+    last->data = 3;
+    last->next = NULL;
+
+    Traversal(head);
 }
