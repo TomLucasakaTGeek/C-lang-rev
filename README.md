@@ -1,12 +1,12 @@
 # C-lang-rev
 
-First topic:- Input/Output
+First topic:- Basics
 
-Second topic:- Loops
+Second topic:- Strings/Arrays
 
-Third topic:- Strings/Arrays
+Third topic:- Pointers
 
-Fourth topic:- Pointers/Structs
+Fourth topic:- Structs
 
 Fifth topic:- LinkedList
 
