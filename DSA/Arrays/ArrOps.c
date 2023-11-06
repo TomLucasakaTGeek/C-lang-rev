@@ -3,6 +3,7 @@
 
 //traversal
 void display(int arr[], int n){
+    printf("Display the array\n");
     for(int i=0;i<n;i++)
         printf("%d\t", arr[i]);
     printf("\n");
@@ -12,10 +13,11 @@ void display(int arr[], int n){
 int indInsertion(int arr[], int size, int element, int capacity, int index){
     if(size>=capacity)
         return -1;
+    else{
     for(int i=size-1; i>=index; i--)
         arr[i+1] = arr[i];
     arr[index] = element;
-        return 1;
+        return 1;}
 }
 
 //deletion
@@ -56,7 +58,8 @@ void main(){
     indInsertion(arr, size, element, capacity, index);
     size += 1;
     display(arr, size);
-}//Deletion
+}
+//Deletion
 void main(){
     int arr[100] = {7,8,12,27,88};
     int size = 5, index = 0;
@@ -64,13 +67,22 @@ void main(){
     indDeletion(arr, size, index);
     size -= 1;
     display(arr, size);
-}//Linear search
+}
+//Inverse 
+void main(){
+    int arr[] = {1,2,3,4,5};
+    int size = 5;
+    inverse(arr,size);
+    display(arr,size);
+}
+//Linear search
 void main(){
     int arr[] = {1,3,5,56,4,3,23,56,34};
     int size = sizeof(arr)/sizeof(int);
     int index = linearSearch(arr,size,4);
     printf("The element %d was found at index %d",4,index);
-}//Binary search
+}
+//Binary search
 void main(){
     int arr[] = {1,3,5,56,74,83,123,156,334};
     int size = sizeof(arr)/sizeof(int);
