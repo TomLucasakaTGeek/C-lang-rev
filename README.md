@@ -10,3 +10,7 @@ Fourth topic:- Structs
 
 Fifth topic:- LinkedList
 
+Sixth topic:- Stacks and Queues
+
+Seventh Topic:- Trees
+
