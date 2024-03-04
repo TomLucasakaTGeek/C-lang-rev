@@ -28,7 +28,7 @@ void main() {
     //second node
     second->data = 2;
     second->next = last;
-    //last node
+    //last node(circular)
     last->data = 3;
     last->next = head;
 
