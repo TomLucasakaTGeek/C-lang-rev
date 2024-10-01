@@ -23,6 +23,7 @@ int main() {
     printf("Value at the address stored by p1 = %d\n\n", *p1);
 
     printf("Value of **p2 = %d\n", **p2); //read this *(*p2)
+    
 
     /*
         This is not allowed, it will give a compile time error-

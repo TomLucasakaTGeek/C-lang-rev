@@ -9,6 +9,9 @@ void main()
       printf("%d", *p);
       p++;
    }
+
+   void free(int *p);
+  
   return 0;
 }
   

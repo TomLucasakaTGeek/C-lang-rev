@@ -16,6 +16,6 @@ int main()
     printf("NAME: %s\n", ptr->name);
     printf("NUMBER: %d\n", ptr->number);
     printf("RANK: %d", ptr->rank);
-
+    
     return 0;
 }
